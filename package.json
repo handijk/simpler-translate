@@ -1,7 +1,7 @@
 {
-  "name": "create-async-generator",
-  "version": "1.0.1",
-  "description": "Create an async generator out of any value and pipe async generators into each other",
+  "name": "simpler-translate",
+  "version": "1.0.0",
+  "description": "Translate any given key using an object containing all translations",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
@@ -27,9 +27,9 @@
   "author": "Han Dijk <info@handijk.nl>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/handijk/create-async-generator/issues"
+    "url": "https://github.com/handijk/simpler-translate/issues"
   },
-  "homepage": "https://github.com/handijk/create-async-generator#readme",
+  "homepage": "https://github.com/handijk/simpler-translate#readme",
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
     "eslint": "^8.21.0",

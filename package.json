@@ -1,6 +1,6 @@
 {
   "name": "simpler-translate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Translate any given key using an object containing all translations",
   "main": "src/index.js",
   "type": "module",

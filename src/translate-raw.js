@@ -17,6 +17,9 @@ export const TranslateRaw =
         index = matches.index + matches[0].length;
         keys.push(replacements[matches[1]]);
         matches = regexp.exec(result);
+        if (!matches) {
+          strings.push(result.slice(index));
+        }
       }
     } else {
       strings.push(result);
